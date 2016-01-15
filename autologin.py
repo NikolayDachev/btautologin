@@ -1,11 +1,13 @@
+
 __author__ = 'ndachev'
 
 import sys
 sys.path.insert(0, r'./libs')
 import pyautogui
 
+def ktype(ttext):
+   pyautogui.typewrite(ttext)
+   pyautogui.press('enter')  # press the Enter key
 
-# http://rosettacode.org/wiki/Simulate_input/Keyboard#Python
+ktype('test type')
 
-pyautogui.typewrite('Hello world!')
-pyautogui.press('enter')  # press the Enter key

@@ -1,4 +1,3 @@
-
 __author__ = 'ndachev'
 
 import sys
